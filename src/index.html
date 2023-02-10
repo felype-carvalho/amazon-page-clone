@@ -10,7 +10,106 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1 class="bg-darkblue-600"> Testing Tailwind</h1>
-    <i class="fas fa-search"></i> 
+    <header>
+        <div class="grid text-white">
+            <!-- Top Header -->
+            <div class="flex flex-wrap md:flex-nowrap bg-darkblue-900 px-2 py-1 items-center">
+                <div class="py-1 px-2 md:border border-gray-700 hover:border-white rounded">
+                    <i class="fas fa-bars text 2xl"></i>
+                </div>
+                <div class="flex px-2 my-2 border border-transparent hover:border-white">
+                    <img src="img/amazon_logo.png" alt="Amazon" class="h-7">
+                    <span class="text-sx pl-1 pt-1">.com.br</span>
+                </div>
+                <div class="w-full md:w-auto flex-grow md:ml-3 mr-0 pt-3 order-2 md:order-none">
+                    <form action="" class="flex">
+                        <select name="" id="" class="hidden md:block p-2 text-sx text-gray-700 bg-gray-100 hover:bg-gray-300 rounded-tl rounded-bl border-r border-gray-500">
+                            <option value="">Livros</option>
+                        </select>
+                        <input type="text" class="p-2 flex-grow rounded-l md:rounded-none">
+                        <button class="px-4 bg-gold-100 hover:bg-gold-200 rounded-tr rounded-br">
+                            <i class="fas fa-search text-darkblue-900 text-xl mt-1"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="hidden md:block ml-1 pb-1 text-xs border border-transparent hover:border-white rounded-sm p-2">
+                    <p class="leading-3">Olá, Faça seu login</p>
+                    <p class="font-extrabold">Contas e Listas <i class="fas fa-chevron-down"></i></p>
+                </div>
+                <div class="hidden md:block pb-1 text-xs border border-transparent hover:border-white rounded-sm p-2">
+                    <p class="leading-3">Devoluções</p>
+                    <p class="font-extrabold">e Pedidos</p>
+                </div>
+                <div class="hidden md:block pb-1 text-xs border border-transparent hover:border-white rounded-sm p-2">
+                    <p class="leading-3">Experimente</p>
+                    <p class="font-extrabold">Prime<i class="fas fa-chevron-down"></i></p>
+                </div>
+                <div class="p-2 border border-transparent hover:border-white rounded-sm absolute right-0 top-0 mr-2 mt-2 md:mr-0 md:mt-0 md:relative order-1 md:order-none md:flex">
+                    <i class="fas fa-shopping-cart flex text-2xl md:mr-2"></i>
+                    <span class="bold text-gold-200 text-base absolute top-0 left-0 -mt-1 ml-4 text-center w-6 h-6 bg-darkblue-600 rounded-full">0</span>
+                    <span class="hidden md:flex text-xs font-extrabold">Carrinho</span>
+                </div>
+            </div>
+            <!-- Middle Header -->
+            <div class="flex bg-darkblue-600 text-sm px-2 py-1 items-center">
+                <div class="address-container">
+                    <div class="mr-1">
+                        <i class="fas fa-map-marker-alt text-xl"></i>
+                    </div>
+                    <div class="flex md:block leading-tight text-xs">   
+                        <p class="mx-1 md:mx-0">Olá</p>
+                        <p class="font-bold">Selecione o endereço</p>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <nav>
+                        <ul class="flex ml-10 text-sm">
+                            <li class="item-nav-mid">Mais Vendidos</li>
+                            <li class="item-nav-mid">Livros</li>
+                            <li class="item-nav-mid">Ofertas do Dia</li>
+                            <li class="item-nav-mid">Atendimento ao Cliente</li>
+                            <li class="item-nav-mid">Eletrônicos</li>
+                            <li class="item-nav-mid">Ideias para Presente</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- Bottom Header -->
+            <div class="flex text-black px-4 text-xs border border-gray-300 bg-gray-100 pt-1">
+                <a href="#" class="block md:hidden py-2 font-bold">
+                    <i class="fas fa-chevron-left"></i> Todos os Departamentos
+                </a>
+                <ul class="hidden md:flex">
+                    <li class="item-nav-bot">
+                        <a href="#">Livros</a>
+                    </li>
+                    <li class="item-nav-bot">
+                        <a href="#">Pesquisa Avançada</a>
+                    </li>
+                    <li class="item-nav-bot">
+                        <a href="#">Mais Vendidos</a>
+                    </li>
+                    <li class="item-nav-bot">
+                        <a href="#">Pré-venda e Lançamentos</a>
+                    </li>
+                    <li class="item-nav-bot">
+                        <a href="#">Livros e Ofertas</a>
+                    </li>
+                    <li class="item-nav-bot">
+                        <a href="#">Loja Geek</a>
+                    </li>
+                    <li class="item-nav-bot">
+                        <a href="#">Universitários e Acadêmicos</a>
+                    </li>
+                    <li class="item-nav-bot">
+                        <a href="#">Didáticos e Escolares</a>
+                    </li>
+                    <li class="item-nav-bot">
+                        <a href="#">Loja Infantil</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
 </body>
 </html>

@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .address-container {
+        @apply flex items-center border border-transparent rounded-sm px-2 py-2 md:py-0 hover:border-white;
+    }
+
+    .item-nav-mid {
+        @apply mr-4 border border-transparent rounded-sm px-2 py-1 hover:border-white;;
+    }
+
+    .item-nav-bot {
+        @apply hover:text-orange-650 border-b-2 border-transparent hover:border-orange-650 py-1 px-3;
+    }
+}
