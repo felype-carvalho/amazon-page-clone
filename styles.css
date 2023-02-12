@@ -14,4 +14,7 @@
     .item-nav-bot {
         @apply hover:text-orange-650 border-b-2 border-transparent hover:border-orange-650 py-1 px-3;
     }
+    .btn-amazon-prime {
+        @apply text-sm md:text-xs bg-yellow-350 border border-yellow-700 rounded px-3 py-3 md:py-0 md:ml-10 h-12 md:h-8 block md:flex items-center w-full md:w-auto text-center;
+    }
 }
