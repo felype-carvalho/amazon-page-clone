@@ -66,7 +66,7 @@ git clone https://github.com/felype-carvalho/amazon-page-clone.git
 cd amazon-page-clone/src/
 ```
 
-3- Open *index.html* fil. If you are using VSCode, you can use the Live Server extension to run an application on localhost:5500.
+3- Open *index.html* file. If you are using VSCode, you can use the Live Server extension to run an application on localhost:5500.
 
 4- (Optional) You can make changes to the project using the Tailwind CLI build process. In the root folder of the project, enter the command to run the build.
 ``` 
