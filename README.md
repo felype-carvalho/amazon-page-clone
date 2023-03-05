@@ -52,9 +52,27 @@ Original web-site [here](https://www.amazon.com.br/Livros/b/?ie=UTF8&node=674074
 
 ### Prerequisites
 
-``` git e npm ```
+``` npm and git```
 
 ### Installation
+
+1- Clone this repository.
+``` 
+git clone https://github.com/felype-carvalho/amazon-page-clone.git
+```
+
+2- Access the */src* folder inside the project directory by your terminal/cmd.
+``` 
+cd amazon-page-clone/src/
+```
+
+3- Open *index.html* fil. If you are using VSCode, you can use the Live Server extension to run an application on localhost:5500.
+
+4- (Optional) You can make changes to the project using the Tailwind CLI build process. In the root folder of the project, enter the command to run the build.
+``` 
+npx tailwindcss -i tailwind.css -o src/css/styles.css --watch
+```
+
  
 <!-- LICENSE -->
 ## License
