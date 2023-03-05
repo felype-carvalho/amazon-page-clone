@@ -1,24 +1,24 @@
-# Amazon Homepage Clone
+# Amazon Page Clone
  
  <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Summary</summary>
   <ol>
     <li>
-      <a href="#About-the-project">About the Project</a>
+      <a href="#about-the-project">About the Project</a>
       <ul>
         <li><a href="#build-with">Build With</a></li>
         <li><a href="#visual">Visual</a></li>
       </ul>
     </li>
     <li>
-      <a href="#How-to-use">How to use</a>
+      <a href="#how-to-use">How to use</a>
       <ul>
-        <li><a href="#Prerequisites">Prerequisites</a></li>
-        <li><a href="#Installation">Installation</a></li>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#License">License</a></li>
+    <li><a href="#license">License</a></li>
   </ol>
 </details>
 
@@ -52,7 +52,7 @@ Original web-site [here](https://www.amazon.com.br/Livros/b/?ie=UTF8&node=674074
 
 ### Prerequisites
 
-``` npm and git```
+``` git and npm ```
 
 ### Installation
 
